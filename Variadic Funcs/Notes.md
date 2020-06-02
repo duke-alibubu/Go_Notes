@@ -7,3 +7,4 @@
 
 ## Passing a slice to a variadic func
 - Have to suffice the slice with `...`.
+- Since we passed as a slice, the slice passed to the variadic func will reflect its change.
